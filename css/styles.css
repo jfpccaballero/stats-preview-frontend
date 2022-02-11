@@ -1,0 +1,78 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-family: "Inter";
+    text-align: center;
+}
+img {
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 0 1rem 1rem 0;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+p { font-size: 15px; }
+span { color: hsl(277, 64%, 61%); }
+.attribution { font-size: 11px; text-align: center; color: blueviolet; }
+.attribution a { color: hsl(228, 46%, 38%); }
+.card {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 1rem;
+    display: inline-block;
+    width: 65rem;
+}
+.card-body {
+    width: 25rem;
+    height: 20rem;
+    float: left;
+    padding: 2.5rem 4rem 3rem;
+    text-align: left;
+}
+.card-text {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    line-height: 2;
+}
+.container { margin: 10% auto; }
+.features {
+    display: flex;
+    padding-top: 1.5rem;
+}
+.features div { width: 33.33%; }
+.features p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: "Lexend Deca", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.features h1 { font-size: 25px; }
+.img-div {
+    background-color: hsla(278, 100%, 35%, 0.897);
+    width: 32rem;
+    float: right;
+    border-radius: 0 1rem 1rem 0;
+}
+
+@media screen and (max-width: 1064px) {
+    img { border-radius: 1rem 1rem 0 0; }
+    .card { width: 25rem; }
+    .card-body {
+        text-align: center;
+        height: 100%;
+        width: 20rem;
+        padding: 1rem 2.5rem;
+    }
+    .features {
+        display: block;
+        text-align: center;
+    }
+    .features div {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    .img-div {
+        border-radius: 1rem 1rem 0 0;
+        width: 100%;
+    }
+}
